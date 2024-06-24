@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="student.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="get_box5">
+      <form id="interview_id">
+        <legend>Update Result Status</legend>
+        <div class="inputdiv">
+          <input
+            id="interviewid"
+            type="text"
+            placeholder="Interview_Id"
+            required
+          />
+        </div>
+        <div class="inputdiv">
+          <input id="studentid" type="text" placeholder="Student_Id" required />
+        </div>
+        <div class="inputdiv">
+          <label for="status">Status:</label>
+          <select id="status" name="status" required>
+            <option value="PASS">PASS</option>
+            <option value="FAIL">FAIL</option>
+            <option value="On Hold">On Hold</option>
+            <option value="Didn't Attempt">Didn't Attempt</option>
+          </select>
+        </div>
+        <button id="button5" , type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="student.js"></script>
+  </body>
+</html>

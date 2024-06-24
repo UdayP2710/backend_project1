@@ -1,0 +1,147 @@
+html {
+    height: 100%;
+  }
+  
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.85);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    /* display: inline-block; */
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  .outer_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+  }
+
+  .get_box{
+    background: rgba(19, 19, 19, 0.85);
+    border: 3px solid rgb(0, 0, 0);
+  }
+  #button{
+    background: rgba(40, 38, 38, 0.85);
+  }
+  #button2{
+    background: rgba(10, 1, 175, 0.85);
+  }
+  #button3{
+    background: rgba(6, 212, 37, 0.85);
+  }
+  #button4{
+    background: rgba(227, 43, 6, 0.85);
+  }
+  .commonbtn{
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  .get_box2{
+    background: rgba(10, 1, 175, 0.85);
+    border: 3px solid rgb(6, 6, 108);
+  }
+  .get_box3{
+    background: rgba(6, 212, 37, 0.85);
+    border: 3px solid rgb(3, 79, 22);
+  }
+  .get_box4{
+    background: rgba(227, 43, 6, 0.85);
+    border: 3px solid rgb(123, 1, 1);
+  }
+  .get_box5{
+    background: rgba(12, 130, 154, 0.85);
+    border: 3px solid rgb(21, 16, 161);
+  }
+  .get_box4{
+    background: rgba(227, 43, 6, 0.85);
+    border: 3px solid rgb(123, 1, 1);
+  }
+  .common{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    margin: 20px;
+    width: 20%;
+  }
+  #button5{
+    border-style: none;
+    background: rgba(60, 89, 89, 0.85);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border: 3px solid  rgba(40, 59, 59, 0.85);;
+  }
+  #interviewid{
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(21, 16, 161);
+  }
+  .get_box6{
+    background: rgba(216, 29, 5, 0.85);
+    border: 3px solid rgb(55, 9, 9);
+  }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ui.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="outer_box">
+      <div class="login-box">
+        <h2>Student Details</h2>
+        <form id="studentform">
+          <div class="user-box">
+            <input type="text" name="name" required="" id="name" />
+            <label>Name</label>
+          </div>
+          <div class="user-box">
+            <input type="number" name="batch" required="" id="batch" />
+            <label>Batch</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="college" required="" id="college" />
+            <label>college</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="status" required="" id="status" />
+            <label>Status</label>
+
+            <!-- <select id="status" name="status" required>
+              <option value="placed">Placed</option>
+              <option value="not_placed">Not Placed</option>
+            </select>
+            <label for="status">Status:</label> -->
+          </div>
+          <div class="user-box">
+            <input type="number" name="DSA_score" required="" id="dsa" />
+            <label>DSA Score</label>
+          </div>
+          <div class="user-box">
+            <input type="number" name="WebD_score" required="" id="webd" />
+            <label>Web-D Score</label>
+          </div>
+          <div class="user-box">
+            <input type="number" name="React_score" required="" id="react" />
+            <label>React Score</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="interviews" required="" id="interview" />
+            <label>Interviews</label>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="get_box common">
+      <button id="button" class="commonbtn">Get Student Data</button>
+    </div>
+    <div class="get_box2 common">
+      <button id="button2" class="commonbtn">Add New Interviews</button>
+    </div>
+    <div class="get_box3 common">
+      <button id="button3" class="commonbtn">Interviews list</button>
+    </div>
+    <div class="get_box4 common">
+      <button id="button4" class="commonbtn">
+        Allocate student an Interview
+      </button>
+    </div>
+    <div class="get_box5 common">
+      <form id="interview_id">
+        <legend>
+          Please Enter Interview Id to Fetch the allocated students details
+        </legend>
+        <input
+          id="interviewid"
+          type="interview"
+          placeholder="Interview_Id"
+          required
+        />
+        <button id="button5" , type="submit">Click</button>
+      </form>
+    </div>
+    <div class="get_box6 common">
+      <button id="download">Download Result Data</button>.
+    </div>
+
+    <script src="ui.js"></script>
+  </body>
+</html>
